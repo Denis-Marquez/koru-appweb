@@ -30,6 +30,7 @@
                             <option value="" selected disabled>Selecione uma IA aqui</option>
                             <option value="openai">ChatGPT</option>
                             <option value="gemini">Gemini</option>
+                            <option value="deepseek">DeepSeek</option>
                         </select>
                 </div>
                 <div class="api-txt-btn">
@@ -49,7 +50,11 @@
                 </svg>
                 <h2 class="logo-text">Chat Koru </h2>
             </div>
+            <div class="header-controls">
+                <button id="clear-chat" class="material-symbols-rounded">refresh</button>
+                <button id="close-chat" class="material-symbols-rounded">close</button>
             </div>
+        </div>
         <div class="chat-body">
             <div class="message bot-message">
                 <svg class="bot-avatar" width="50" height="50" viewBox="0 0 1024 1024">
